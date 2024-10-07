@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+
+        <div class="topo">
+       
+
+
+      <label>ADVINHE O NÚMERO</label>
+
+      <button onclick="Game()">APLICAR DEFINIÇÕES</button>
+
+
+         
+
+
+
+        </div>
+
+
+    <div class="baixo">
+
+
+
+        <div class="definicoes">
+
+
+            <div class="definicoes-topo">
+
+                <label>DEFINIÇÕES</label>
+
+            </div>
+
+         <div class="definicoes-baixo">
+
+            <label>DE</label><input id="inptMinimoID" class="inptMinimo" type="number"><label>a</label><input class="inptMaximo" id="inptMaximoID" type="number">
+
+         </div>
+        
+
+
+        </div>
+
+        <div class="jogar">
+
+
+            <div class="jogar-titulo">
+
+           <label>JOGAR</label>
+
+            </div>
+
+            <div class="jogar-palpite">
+
+          <label>SEU PALPITE</label> <input id="inptPalpite" type="number"> <button onclick="Confirma()" >CONFIRMA</button>
+
+            </div>
+
+            <div class="tentativas">
+
+                <label>TENTATIVAS</label> <input id="inptTentativas" readonly type="number">
+                
+            </div>
+
+            
+         <div class="jogar-dicas">
+
+            <label class="dica">DICA PALPITE</label> <input id="inptDica" class="inputDica" readonly type="text">
+
+         </div>
+            
+            
+           
+
+
+        
+
+
+
+         <button class="desistir">DESISTIR</button>
+
+
+        </div>
+
+
+
+    </div>
+
+
+      
+
+</div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

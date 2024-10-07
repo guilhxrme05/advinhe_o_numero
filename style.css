@@ -1,0 +1,229 @@
+html{
+
+    height: 100%;
+
+}
+
+body{
+
+    height: 100%;
+    margin: 0;
+    font-family: kid;
+
+}
+
+@font-face {
+    font-family: kid;
+    src: url(ComingSoon.ttf);
+}
+
+.container{
+
+    
+    height: 98%;
+
+}
+
+.topo{
+    height: 40%;
+    background-color: #191970;
+    border: 5px solid black;
+    font-weight: 600;
+    font-size: 80px;
+    color: aliceblue;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.topo button{
+    border: 2px solid black;
+    height: 70px;
+    margin-bottom: 5px;
+    background-color: aliceblue;
+    color: black;
+    width: 180px;
+    font-family: kid;
+    font-size: large;
+    border-radius: 20px;
+}
+
+.topo button:hover{
+    cursor: pointer;
+}
+
+.baixo{
+    height: 60%;
+    background-color: #191970;
+    display: flex;
+    border-bottom: 9px solid black;
+}
+
+.definicoes{
+    width: 50%;
+    height: 100%;
+    background-color: #191970;
+    border-right: 5px solid black;
+    flex-direction: column;
+   margin-right: 10px;
+   color: white;
+    
+    
+}
+
+.definicoes-topo{
+
+    height: 10%;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    font-size: 40px;
+    padding-top: 20px;
+}
+
+.definicoes-baixo{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding-top: 100px;
+    font-size: xx-large;
+    display: flex;
+    gap: 20px;
+}
+
+.definicoes-baixo input{
+    border: 2px solid black;
+    height: 30px;
+    margin-bottom: 4px;
+}
+
+.jogar{
+    width: 50%;
+    height: 100%;
+    background-color: #191970;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.jogar-titulo{
+    height: 10%;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    font-size: 40px;
+    padding-top: 20px;
+}
+
+
+
+.jogar-palpite{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding-top: 100px;
+    font-size: xx-large;
+    display: flex;
+    gap: 20px;
+    color: white;
+}
+
+.jogar-palpite input{
+    border: 2px solid black;
+    height: 30px;
+    margin-bottom: 4px;
+    font-family: kid;
+}
+
+.jogar-palpite button{
+    border: 2px solid black;
+    height: 36px;
+    margin-bottom: 5px;
+    background-color: #0e0d0d;;
+    color: white;
+    width: 130px;
+    font-family: kid;
+    font-size: large;
+}
+
+.jogar-palpite button:hover{
+    cursor: pointer;
+    background-color: aliceblue;
+    color: black;
+}
+
+.tentativas{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding-top: 50px;
+    font-size: xx-large;
+    display: flex;
+    gap: 20px;
+    color: white;
+   
+}
+
+
+
+.tentativas input{
+    
+    border: 2px solid black;
+    height: 30px;
+    margin-bottom: 4px;
+    width: 90px;
+        
+   
+}
+
+.desistir{
+    border: 2px solid black;
+    height: 36px;
+    margin-bottom: 5px;
+    background-color: #0e0d0d;;
+    color: white;
+    width: 130px;
+    font-family: kid;
+    font-size: large;
+    margin-top: 20px;
+}
+
+.desistir:hover{
+    background-color: red;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.dica{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+   margin-top: 10px;
+    font-size: xx-large;
+    gap: 20px;
+    color: white;
+}
+
+.jogar-dicas{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding-top: 40px;
+    font-size: xx-large;
+    display: flex;
+    gap: 20px;
+    color: white;
+}
+
+.jogar-dicas input{
+    border: 2px solid black;
+    height: 30px;
+}
+
+
